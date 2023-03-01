@@ -223,7 +223,7 @@ namespace EventSourcing
 
             account.LoadFromHistory(events);
 
-            // The account balance should now be 100.00
+            // The account balance should now be 126.00
             Console.WriteLine($"Account balance: {account.Balance}");
 
             Console.ReadLine();
