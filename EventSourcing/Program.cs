@@ -19,7 +19,7 @@ namespace EventSourcing
         }
     }
 
-    public class AccountOpenedEvent : Event
+   internal class AccountOpenedEvent : Event
     {
         public string AccountNumber { get; set; }
         public string AccountHolder { get; set; }
@@ -32,7 +32,7 @@ namespace EventSourcing
         }
     }
 
-    public class FundsWithdrawnEvent : Event
+    internal class FundsWithdrawnEvent : Event
     {
         private decimal amount;
 
